@@ -30,5 +30,13 @@ public class NumeroEntero {
     public void decrementar() {
         this.valor--;
     }
+    
+    public void incrementarNumero(int valor) {
+        return;
+    }
+   
+    public void decrementarNumero(int valor) {
+        return;
+    }
 
 }
