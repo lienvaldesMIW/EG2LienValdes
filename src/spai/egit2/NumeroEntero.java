@@ -32,11 +32,11 @@ public class NumeroEntero {
     }
     
     public void incrementarNumero(int valor) {
-        return;
+    	this.setValor(this.valor + valor);
     }
    
     public void decrementarNumero(int valor) {
-        return;
+    	this.setValor(this.valor - valor);
     }
 
 }
