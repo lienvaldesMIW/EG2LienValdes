@@ -69,7 +69,7 @@ public class Fraccion {
 
 	public boolean isPropia() {
 		// TODO Auto-generated method stub
-		return false;
+		return numerador < denominador;
 	}
 
 	public boolean isImpropia() {
