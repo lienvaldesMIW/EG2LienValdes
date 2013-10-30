@@ -73,8 +73,7 @@ public class Fraccion {
 	}
 
 	public boolean isImpropia() {
-		// TODO Auto-generated method stub
-		return false;
+		return numerador > denominador;
 	}
 
 	public boolean isUno() {
