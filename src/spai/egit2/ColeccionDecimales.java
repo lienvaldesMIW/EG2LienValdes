@@ -35,8 +35,14 @@ public class ColeccionDecimales {
     }
 
 	public double menor() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		    double menor = Double.POSITIVE_INFINITY;
+	        for (double item : this.coleccion) {
+	            if (item < menor)
+	                  menor = item;
+	        }
+	        return menor;
+	 
 	}
 
 }
