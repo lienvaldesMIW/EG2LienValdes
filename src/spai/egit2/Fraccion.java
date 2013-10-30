@@ -67,4 +67,19 @@ public class Fraccion {
         return (double) numerador / denominador;
     }
 
+	public boolean isPropia() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean isImpropia() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean isUno() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
