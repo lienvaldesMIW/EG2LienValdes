@@ -47,5 +47,17 @@ public class NumeroEnteroTest {
         this.numero.decrementar();
         assertEquals(-1, numero.getValor());
     }
+    
+    @Test
+    public void testIncrementarNumero() {
+        this.numero.incrementarNumero(2);
+        assertEquals(102, this.numero.getValor());
+    }
+   
+    @Test
+    public void testDecrementarNumero() {
+        this.numero.decrementarNumero(2);
+        assertEquals(98, numero.getValor());
+    }
 
 }

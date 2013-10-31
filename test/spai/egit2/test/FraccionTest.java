@@ -45,4 +45,22 @@ public class FraccionTest {
         assertEquals(2.0/3.0, fraccion.decimal(), 1e-10);
     }
 
+    @Test
+    public void testIsPropia() {
+      Fraccion propia = new Fraccion(3,4);
+        assertEquals(true, propia.isPropia()) ;
+    }
+   
+    @Test
+    public void testIsImpropia() {
+      Fraccion impropia = new Fraccion(4,3);
+        assertEquals(true, impropia.isImpropia()) ;
+    }
+ 
+    @Test
+    public void testIsUno() {
+      Fraccion uno = new Fraccion(4,4);
+        assertEquals(true, uno.isUno()) ;
+    }
+    
 }
